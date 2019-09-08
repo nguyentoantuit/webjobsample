@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob.NetFramework", "WebJob.NetFramework\WebJob.NetFramework.csproj", "{65233567-6135-4422-A67F-D6908F7731CB}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJob.NetCore.BetaRelease", "WebJob.NetCore.BetaRelease\WebJob.NetCore.BetaRelease.csproj", "{A59E1DA7-D193-48D5-811A-EA235592FE2C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJob.NetCore.StableRelease", "WebJob.NetCore.StableRelease\WebJob.NetCore.StableRelease.csproj", "{26CB19E6-4799-4779-A7E2-9F02C29E8126}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJob.AzureDevOps.CICD", "WebJob.AzureDevOps.CICD\WebJob.AzureDevOps.CICD.csproj", "{7D71F8E4-81A4-4351-B86A-EE08652B5674}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{65233567-6135-4422-A67F-D6908F7731CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65233567-6135-4422-A67F-D6908F7731CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65233567-6135-4422-A67F-D6908F7731CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65233567-6135-4422-A67F-D6908F7731CB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A59E1DA7-D193-48D5-811A-EA235592FE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A59E1DA7-D193-48D5-811A-EA235592FE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A59E1DA7-D193-48D5-811A-EA235592FE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{26CB19E6-4799-4779-A7E2-9F02C29E8126}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26CB19E6-4799-4779-A7E2-9F02C29E8126}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26CB19E6-4799-4779-A7E2-9F02C29E8126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D71F8E4-81A4-4351-B86A-EE08652B5674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D71F8E4-81A4-4351-B86A-EE08652B5674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D71F8E4-81A4-4351-B86A-EE08652B5674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D71F8E4-81A4-4351-B86A-EE08652B5674}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
